@@ -50,7 +50,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-
         <Display strikes={this.state.strikes} balls={this.state.balls} />
         <Dashboard balls={this.state.balls} strikes={this.state.strikes} addBalls={this.addBalls} addStrikes={this.addStrikes} foulBall={this.foulBall} hitBall={this.hitBall} />
       </div>

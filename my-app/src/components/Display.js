@@ -5,7 +5,7 @@ const Display = props => {
 
     return (
         <div>
-            <section className="scoreboard">
+            <section data-testid='scoreboard' className="scoreboard">
                 <div className="bottomRow">
                     <div className="down">
                         <h3 className="down__title">Balls</h3>
